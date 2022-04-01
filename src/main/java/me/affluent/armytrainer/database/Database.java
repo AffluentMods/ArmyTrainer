@@ -15,9 +15,9 @@ public class Database {
     private void mySQL() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String password = "YgbWq/6uxF]](Znd";
+            String password = ""; //database password
             String database = "ArmyTrainer";
-            String ip = "localhost";
+            String ip = "localhost"; //use localhost if both database and server are on the same ip. If not, use IP of database
             con = DriverManager
                     .getConnection("jdbc:mysql://" + ip + ":3306/" + database + "?autoReconnect=true", "scriptuser",
                             password);
