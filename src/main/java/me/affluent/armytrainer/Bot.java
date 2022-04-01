@@ -35,7 +35,7 @@ public class Bot extends ListenerAdapter {
 
     Bot() {
         this.database = new Database();
-        this.token = "OTI2OTk1ODcwMjc5NDE3OTQ2.YdDyLg.IY8L17O8QgYeugR1arZq4zcfhzE";
+        this.token = "OTI2OTk1ODcwMjc5NDE3OTQ2.YdDyLg.IY8L17O8QgYeugR1arZq4zcfhzE"; //outdated token, change this
         this.shards = 2;
     }
 
